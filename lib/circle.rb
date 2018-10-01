@@ -27,6 +27,9 @@ class Circle < Shape
 
   #Input: radius, integer
   #print: a circle shape in console 
+  #Notes: It can add the next paramenters x, y, width, heigh 
+ # with these parameters you can add a functionality to draw the circle with the mouse.
+ 
   def draw(r)
     (-radius..radius).each do |x|
       (-radius..radius).each do |y|
